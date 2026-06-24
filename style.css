@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ 
+
+body{
+      font-family: "Raleway", sans-serif;
+}
+
+header{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 60px;
+}
+
+.navbar{
+      display: flex;
+      align-items: center;
+      gap: 25px;
+}
+
+.navbar ul {
+      display: flex;
+      list-style-type: none;
+      gap: 20px;
+}
+
+.navitems li a{
+      text-decoration: none;
+      color: black;
+}
+
+.btn-header .request-btn{
+      background: transparent;
+      color: black;
+      padding: 15px 30px;
+      border: 1px solid black;
+      border-radius: 10px;
+}
+
+/* hero ... section*/
+
+.hero-container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 80vw;
+      margin: 0 auto;
+}
+.hero-desc{
+      width: 40vw;
+}
+
+.hero-desc h1{
+      font-size: 50px;
+      margin-bottom: 10px;
+}
+p{
+      line-height: 2;
+      margin-bottom: 10px;
+}
+
+.hero-image{
+      width: 40vw;
+}
+
+.hero-image img{
+      width: 100%;
+}
+
+.hero-btn{
+      background-color: black;
+      color: white;
+      padding: 20px 40px;
+      border:none;
+      border-radius: 15px;
+}
+
+.company-logo{
+      width: 80vw;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+}
