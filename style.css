@@ -59,12 +59,12 @@ header{
 }
 
 .hero-desc h1{
-      font-size: 50px;
+      font-size: 3rem;
       margin-bottom: 10px;
 }
-p{
+.hero-desc p{
       line-height: 2;
-      margin-bottom: 10px;
+      margin-bottom: 1rem;
 }
 
 .hero-image{
@@ -89,3 +89,449 @@ p{
       display: flex;
       justify-content: space-between;
 }
+
+  /* services-container */
+  .serv-main-cont
+  {
+/* border: 1px solid black; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 80vw;
+margin: 60px auto;
+
+
+  }
+  .serv-headi
+  {
+/* border: 1px solid black; */
+background-color: #B9FF66;
+width:13%;
+font-size: 1.4em;
+
+  }
+.serv-main-cont p
+{
+      /* border: 1px solid black; */
+      width:85%;
+}
+
+/* card-section */
+.card-main-cont
+{
+      border: 1px solid black;
+display: flex;
+justify-content:center;
+gap: 40px;
+width: 80vw;
+margin:60px auto;
+
+}
+/* container-1 */
+ .card-main-cont-1
+{
+border: 1px solid black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #F3F3F3;
+flex: 1;
+border-radius: 30px;
+
+
+}
+
+.card-text-1
+{
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+gap: 100px;
+padding: 50px;
+flex: 1;
+}
+.card-text-1 h3
+{
+      background-color:#B9FF66;
+}
+.card-img-1
+{
+border: 1px solid black;
+display: flex;
+justify-content: center;
+flex: 1;
+} 
+
+.card-img-1 img
+{
+    width: 100%;
+    height: auto;
+}
+
+/* container-2 */
+
+ .card-main-cont-2
+{
+border: 1px solid black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color:#B9FF66;
+border-radius: 30px;
+flex: 1;
+
+
+}
+
+.card-text-2
+{
+border: 1px solid black;
+display: flex;
+flex-direction:column;
+gap: 100px;
+padding:50px;
+flex: 1;
+}
+.card-text-2 h3
+{
+      background-color:#FFFFFF;
+      
+}
+.card-img-2
+{
+border: 1px solid black;
+display: flex;
+justify-content: center;
+flex: 1;
+} 
+
+.card-img-2 img
+{
+width: 100%;
+height: auto;
+}
+
+/* working-section */
+
+ .work-main-cont
+  {
+/* border: 1px solid black; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 80vw;
+margin: 60px auto;
+
+
+  }
+  .work-headi
+  {
+/* border: 1px solid black; */
+background-color: #B9FF66;
+width:32%;
+font-size: 1.4em;
+
+  }
+.work-main-cont p
+{
+      /* border: 1px solid black; */
+      width:66%;
+}
+
+/* section head line  */
+.sec-head-lines
+{
+/* border: 1px solid black; */
+margin-bottom: 20px;
+}
+
+.head-lin1
+{
+ border: 1px solid black;
+ background-color: #B9FF66;
+ border-radius:30px;
+ width: 80vw;
+ margin: auto;
+ 
+}
+
+.heading1-cont
+{
+  /* border: 1px solid black; */
+  display: flex;  
+  align-items: center;
+
+}
+
+.card-n01
+{
+/* border: 1px solid black;  */
+font-size:2em; 
+font-weight:500;
+margin:20px;
+}
+
+.heading1-cont h3
+{
+/* border: 1px solid black; */
+font-size:1.1em;
+flex:1;
+}
+
+.icon1-minus
+{
+/* border: 1px solid black; */
+font-size:2em; 
+font-weight:500;
+margin: 20px;
+
+}
+
+ hr
+ {
+ margin: 20px;
+ border: none;
+ border: 1px solid black;
+ }
+
+ .head-lin1-p
+ {
+  /* border: 1px solid black; */
+  margin: 20px;
+  font-size: 1.1em;
+ }
+
+ .head-lin2
+ {
+      border: 1px solid black;
+      border-radius: 30px;
+      background-color: #F3F3F3;
+      width: 80vw;
+      margin:15px auto;
+ }
+
+ .research-cont
+ {
+      /* border: 1px solid black; */
+      display: flex;
+      align-items: center;
+ }
+
+ .card-no2
+ {
+      /* border: 1px solid black; */
+      font-size:2em;
+      font-weight:500;
+      margin:20px;
+ }
+
+ 
+.research-cont h3
+{
+/* border: 1px solid black; */
+font-size: 1.1em;
+flex: 1;
+
+}
+
+ .icon2-plus
+ {
+/* border: 1px solid black; */
+font-size:2em;
+font-weight:500;
+margin: 20px;
+ }
+
+
+ .head-lin3
+ {
+      border: 1px solid black;
+      border-radius: 30px;
+      background-color: #F3F3F3;
+      width: 80vw;
+      margin:15px auto;
+ }
+
+ .imp-cont
+ {
+      /* border: 1px solid black; */
+      display: flex;
+      align-items: center;
+ }
+
+ .card-no3
+ {
+      /* border: 1px solid black; */
+      font-size:2em;
+      font-weight:500;
+      margin:20px;
+ }
+
+ 
+.imp-cont h3
+{
+/* border: 1px solid black; */
+font-size: 1.1em;
+flex: 1;
+
+}
+
+ .icon3-plus
+ {
+/* border: 1px solid black; */
+font-size:2em;
+font-weight:500;
+margin: 20px;
+ }
+
+
+
+  .head-lin4
+ {
+      border: 1px solid black;
+      border-radius: 30px;
+      background-color: #F3F3F3;
+      width: 80vw;
+      margin:15px auto;
+ }
+
+ .moni-cont
+ {
+      /* border: 1px solid black; */
+      display: flex;
+      align-items: center;
+ }
+
+ .card-no4
+ {
+      /* border: 1px solid black; */
+      font-size:2em;
+      font-weight:500;
+      margin:20px;
+ }
+
+ 
+.moni-cont h3
+{
+/* border: 1px solid black; */
+font-size: 1.1em;
+flex: 1;
+
+}
+
+ .icon4-plus
+ {
+/* border: 1px solid black; */
+font-size:2em;
+font-weight:500;
+margin: 20px;
+ }
+
+
+ .head-lin5
+ {
+      border: 1px solid black;
+      border-radius: 30px;
+      background-color: #F3F3F3;
+      width: 80vw;
+      margin:15px auto;
+ }
+
+ .rep-cont
+ {
+      /* border: 1px solid black; */
+      display: flex;
+      align-items: center;
+ }
+
+ .card-no5
+ {
+      /* border: 1px solid black; */
+      font-size:2em;
+      font-weight:500;
+      margin:20px;
+ }
+
+ 
+.rep-cont h3
+{
+/* border: 1px solid black; */
+font-size: 1.1em;
+flex: 1;
+
+}
+
+ .icon5-plus
+ {
+/* border: 1px solid black; */
+font-size:2em;
+font-weight:500;
+margin: 20px;
+ }
+
+
+ .head-lin6
+ {
+      border: 1px solid black;
+      border-radius: 30px;
+      background-color: #F3F3F3;
+      width: 80vw;
+      margin:15px auto;
+ }
+
+ .conti-cont
+ {
+      /* border: 1px solid black; */
+      display: flex;
+      align-items: center;
+ }
+
+ .card-no6
+ {
+      /* border: 1px solid black; */
+      font-size:2em;
+      font-weight:500;
+      margin:20px;
+ }
+
+ 
+.conti-cont h3
+{
+/* border: 1px solid black; */
+font-size: 1.1em;
+flex: 1;
+
+}
+
+ .icon6-plus
+ {
+/* border: 1px solid black; */
+font-size:2em;
+font-weight:500;
+margin: 20px;
+ }
+
+ /* Connect with Us */
+.cont-us-maincon
+{
+border: 1px solid black;
+width:80vw;
+margin:40px auto;
+display: flex;
+justify-content: center;
+
+}
+.conta-us
+{
+      border: 1px solid black;
+      background-color: #B9FF66;
+      width:20%;
+      margin-right:3rem;
+      font-size:1.1em;
+}
+.connec-para
+{
+      border: 1px solid black;
+      width: 83%;
+}
+
